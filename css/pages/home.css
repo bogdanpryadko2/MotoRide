@@ -1,0 +1,43 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 36px;
+}
+
+.hero-tag {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #e63a2a;
+    background: rgba(230, 58, 42, 0.08);
+    padding: 5px 18px;
+    border-radius: 40px;
+    display: inline-block;
+    width: fit-content;
+    border: 1px solid rgba(230, 58, 42, 0.12);
+}
+
+.hero h1 {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+}
+
+.hero h1 span {
+    background: linear-gradient(135deg, #e63a2a, #ff6b35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #9aa4b8;
+    max-width: 580px;
+    line-height: 1.7;
+    margin-top: 4px;
+}
