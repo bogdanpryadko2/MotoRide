@@ -1,0 +1,27 @@
+<div class="auth-wrap">
+    <h2>Добро пожаловать</h2>
+    <p class="auth-sub">
+        Войди в мир скорости<br />
+        или <a href="#" onclick="switchPage('register'); return false;">создай аккаунт</a>
+    </p>
+
+    <form onsubmit="event.preventDefault(); alert('Добро пожаловать, райдер!');">
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="rider@moto.ru" value="demo@moto.ru" />
+        </div>
+
+        <div class="form-group">
+            <label for="password">Пароль</label>
+            <input type="password" id="password" placeholder="введите пароль" value="moto2025" />
+        </div>
+
+        <button type="submit" class="btn-primary">Войти</button>
+    </form>
+
+    <div class="auth-footer">
+        <a href="#" onclick="alert('Восстановление пароля'); return false;">Забыли пароль?</a>
+        &nbsp;&nbsp;·&nbsp;&nbsp;
+        <a href="#" onclick="switchPage('register'); return false;">Регистрация</a>
+    </div>
+</div>
